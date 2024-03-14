@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Script that writes an annotated function called to_str that returns string representation
-of a float
+Script that writes an annotated function called to_str that returns
+string representation of a float
 """
 import typing
 
