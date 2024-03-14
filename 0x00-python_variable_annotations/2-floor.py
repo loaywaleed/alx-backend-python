@@ -3,9 +3,9 @@
 Script that writes an annotated function called float that returns it floored
 """
 import typing
-from math import floor
+import math
 
 
 def floor(n: float) -> int:
     """Function that floors a given argument n"""
-    return floor(n)
+    return math.floor(n)
