@@ -12,5 +12,5 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
     """coroutine that executes multiple coroutines"""
     lst = []
     for _ in range(n):
-        lst.append(await wait_random(max_delay))
+        lst.append(wait_random(max_delay))
     return sorted(await asyncio.gather(*lst))
